@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+
+<head>
+	<meta charset="utf-8" />
+	<title>FinalProject YFL</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script type="text/javascript" src="js/jquery-1.10.1.js" ></script>
+	<script type="text/javascript" src="js/gpaCalculate.js" ></script>
+    <link rel="icon" href="images/iconpicture.ico">
+    <meta name="date" content="2020.12.1">
+    <meta name="author" content="Yifan Liu">
+    
+</head>
+
+<body style="margin-bottom: 20px;">
+    <header style="padding: 10px 0">
+        <img src="images/logo.png" width="143" height="63">
+        <h1 class="header1" >Final Project</h1>
+        <h2 class="header2" >designed by Yifan Liu</h2>
+            <div class="sou">
+     <div class="search"><input type="text" value="Please enter search content" /></div>
+     <div class="s_btn"><input type="button" value="GO!" /></div>
+     </div>
+    </header>
+    <div>
+    
+    
+        <ul style="height: 60px;background-color: black;list-style: none;display: flex;flex-direction: row;justify-content: space-around;align-items: center;margin-top: 0;">
+               <li class="background1"><a href="gallary.html" class="background2" style="color: white;font-weight: bold;">Gallary</a></li>
+            <li class="background1 "><a href="computerscience.html" class="background2" style="color: white;font-weight: bold;">Computer science</a></li>
+            <li class="background1 "><a href="form.html" class="background2" style="color: white;font-weight: bold;">Teaching Assistant</a></li>
+            <li class="background1 "><a href="gpa.html" class="background2" style="color: white;font-weight: bold;">GPA calculate</a></li>
+        	
+        </ul>
+       
+    </div>
+    
+     <main style="height:530px">
+        <div style="float: left;height: 530px;width: 200px"><nav>
+            <ul class=leftsec>
+                  <li class="zli"><a href="index.html" style="color: black">Home</a></li>
+                <li class="zli"><a href="computerscience.html" style="color: black">C S</a></li>
+                <li class="zli"><a href="form.html" style="color: black">T A</a></li>
+                <li class="zli"><a href="gpa.html" style="color: black">GPA calculate</a></li>
+            </ul>
+        </nav>
+        </div>
+    
+    	<div>
+    		<h3 style="padding-left: 40px;margin-bottom: 20px;">GPA calculate</h3>
+			<div id="divmg">
+				<p class="name">  
+					<button id="add">Add</button>  
+					<button id="delete">Delete</button>
+					<button id="calculate">Calculate</button>
+				</p>
+				<div id="subjects">
+					<p class="name">
+						
+				  		<label class="lab-1">Letter Grade</label>
+				    	<input type="text" name="grade" id="asd"/> 
+				    	<label class="lab-1">Credit Hours</label>
+				    	<input type="text" name="hours" /> 
+					</p>  
+					<p class="name">  
+						
+						<label class="lab-1">Letter Grade</label>
+				    	<input type="text" name="grade" /> 
+				    	<label class="lab-1">Credit Hours</label>
+				    	<input type="text" name="hours" /> 
+					</p>
+				</div>
+				<p class="name">  
+					<span class="span-3">Your GPA:</span>
+			    	<input type="text" id="gpa" /> 
+				</p>
+				
+			</div>
+    	</div>
+         
+        </main>
+    <footer style="height: 40px;display: flex;align-items: center;justify-content: center">
+             &copy;Website desighed by Yifan Liu 2020.12<br>
+			<span style="font-weight: bold;">Version 1.1</span>
+    </footer>
+	
+</body>
+</html>

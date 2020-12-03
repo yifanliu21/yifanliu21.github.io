@@ -1,0 +1,139 @@
+html{
+    background-image:url(images/background.jpg)
+   
+}
+body{
+    font-family: sans-serif;
+    width: 1000px;
+    background-color: darkgrey;
+    border:1px solid black;
+    -moz-box-shadow:0 0 15px 10px #545454;
+    -webkit-box-shadow:0 0 15px 10px #545454;
+    box-shadow: 0 0 40px 20px #363636;
+    margin: auto; 
+    background-repeat:repeat-x;
+    background-repeat: repeat-y;
+}
+.header1{
+    font-size: 45px;
+    font-weight: bold;
+    color: darkred;
+    text-shadow: black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.header2{    
+    font-size:20px;
+    color:black;
+    margin-top: 0;
+}
+img{
+    float: left;
+    height: 100px;
+    margin-right:50px;
+}
+.background color1{
+    color: white;
+}
+.background color2{
+    background-color: black;
+}
+
+#nav_menu ul{
+    height: 60px;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+#nav_menu ul li{
+    
+}
+
+
+
+a{
+    color: orange;
+    margin-left: 0px;
+    transition: color 1s ease-in 1s;
+    text-decoration: none;
+}
+.footer{
+    font-size: 15px;
+    text-align: center;
+}
+header{
+    background:linear-gradient(40deg, grey,black 75%, white)!important;
+    border-bottom:1px solid black; 
+    linear-gradient(45deg, grey, white 75%, black);
+}
+footer{
+    background:linear-gradient(45deg, grey, black 75%, white) !important;
+    border-top:1px solid black;
+    linear-gradient(45deg, grey, white 75%, black);
+}
+
+.zli{
+    border:3px solid black; 
+    background-color: gainsboro; 
+    width: 130px;
+    height: 30px; 
+    list-style: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+a:hover{
+    color: green;
+}
+
+.sou{
+	width:295px;
+	height:30px;
+	margin-top:20px;
+	
+}
+.search{
+	width:220px;
+	height:30px;
+	float:left;
+}
+.sou input{
+	width:100%;
+	height:26px;
+	text-indent:10px;
+	color:black;
+}
+.s_btn{
+	width:60px;
+	height:30px;
+	float:left;
+}
+.s_btn input{
+	border:none;
+	width:100%;
+	height:32px;
+	background:grey;
+	color:white;
+	cursor:pointer;
+}
+
+#left{
+	flex: 1;
+	margin-right: 800px;
+}
+.divside-1{
+	
+	height:auto;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content:left;
+    align-items: center;
+}
+    
+#divmg{
+	padding: 0 40px;
+}
+
